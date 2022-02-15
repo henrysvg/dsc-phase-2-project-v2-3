@@ -15,9 +15,29 @@ The data provided to us encompasses over 18,500 home sold in the King County are
 
 
 ## Model
+Model Type: Linear Regression
+    - Baseline Model: only used features which were highly correlated with the dependent variable. 
+    - Second Model: Added Categorical features (grade, condition, etc..)
+    - Third Model: Performed a log transformation on the dependent variable price.
+    - Fourth Model: Dropped features which has a high p-value.  After creating the fourth model, we looked at multicollinearity
+    between features.  Sqft_above and sqft_living15 were dropped accordingly.
 
 
 ## Conclusion
 
+The model which is the most accurate in making assumptions of how the attributes of the home increase the sale price is verison four. It is worth noting that since our dependent variable 'price' was log transformed that we need to view the coefficients as percentages.After modeling it is a fair assumption to say that the attributes of the home which will increase the sale price the most are as follows:
+    - Waterfront will increase the sale price by 39%
+    -Homes with a grade of 11 or higher will increase the sale price of them home in the range 13 to 39%
+    -Homes which were built after 1980 will increase the sale price of the home by 21%
+
 
 ## Next Steps
+
+The stakeholder should move forward looking to invest in homes which:
+    - Were built after 1980
+    - Are located on the water
+    - Have a grade of 11 or higher
+
+This will in turn help when they resell the homes in the future. If the stakeholder is looking to add more features in their search in the future, the suggestion would be:
+    - Homes with multiple floors which increases the sale price by 12%
+    - Homes which have a view which increases sale price by 15%
