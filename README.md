@@ -26,9 +26,14 @@ between features.  Sqft_above and sqft_living15 were dropped accordingly.
 ## Conclusion
 
 The model which is the most accurate in making assumptions of how the attributes of the home increase the sale price is verison four. It is worth noting that since our dependent variable 'price' was log transformed that we need to view the coefficients as percentages.After modeling it is a fair assumption to say that the attributes of the home which will increase the sale price the most are as follows:
-* Waterfront will increase the sale price by 39%
+* Waterfront will increase the sale price by 39%:
+
+![Waterfront.png](./Images/Waterfront.png)
+
 * Homes with a grade of 11 or higher will increase the sale price of them home to that of lesser grades in the range 14% to 33%
 * Homes which were built after 1980 will increase the sale price of the home by 21%
+
+![Year Built.png](./Images/Year Built.png)
 
 
 ## Next Steps
