@@ -31,9 +31,12 @@ The model which is the most accurate in making assumptions of how the attributes
 ![Waterfront.png](./Images/Waterfront.png)
 
 * Homes with a grade of 11 or higher will increase the sale price of them home to that of lesser grades in the range 14% to 33%
+
+![Grade.png](./Images/Grade.png)
+
 * Homes which were built after 1980 will increase the sale price of the home by 21%
 
-![Year Built.png](./Images/Year Built.png)
+![Year_Built.png](./Images/Year_Built.png)
 
 
 ## Next Steps
